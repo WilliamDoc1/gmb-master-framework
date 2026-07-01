@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>gmb-master-framework</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <!-- Netlify Forms detection -->
+  <form name="contact" data-netlify="true" hidden>
+    <input type="text" name="name"/>
+    <input type="tel" name="phone"/>
+    <input type="email" name="email"/>
+    <input type="text" name="service"/>
+    <input type="text" name="area"/>
+    <textarea name="message"></textarea>
+  </form>
+  <form name="footer-quote" data-netlify="true" hidden>
+    <input type="text" name="Your Name"/>
+    <input type="tel" name="Phone Number"/>
+    <input type="text" name="service"/>
+  </form>
+</body>
+</html>

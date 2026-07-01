@@ -1,0 +1,388 @@
+{
+  "_meta": {
+    "version": "2.0",
+    "industry": "trade",
+    "industryLabel": "Home Improvement",
+    "themePreset": "dark-accent",
+    "siteUrl": "https://empireroofing.co.za",
+    "deployTarget": "netlify"
+  },
+
+  "brand": {
+    "name": "Empire Roofing",
+    "shortName": "Empire",
+    "tagline": "Cape Town's #1 Roofing & Waterproofing Specialists",
+    "established": "2012",
+    "logo": "/images/logo.png",
+    "colors": {
+      "primary": "#1a1a1a",
+      "accent": "#F5C518",
+      "light": "#FFFDF0",
+      "text": "#1a1a1a"
+    },
+    "fonts": {
+      "heading": "Inter",
+      "body": "Inter"
+    }
+  },
+
+  "contact": {
+    "phone1": { "raw": "+27221250260", "display": "022 125 0260", "label": "Main" },
+    "phone2": null,
+    "whatsapp": "+27221250260",
+    "email": "info@empireroofing.co.za",
+    "address": {
+      "street": "Cape Town",
+      "suburb": "Cape Town",
+      "city": "Cape Town",
+      "province": "Western Cape",
+      "postcode": "",
+      "country": "South Africa",
+      "countryCode": "ZA"
+    },
+    "hours": "Mon–Fri 7am–5pm, Sat 8am–1pm"
+  },
+
+  "seo": {
+    "metaTitle": "Empire Roofing — Cape Town's #1 Roofing & Waterproofing Specialists",
+    "metaDescription": "Expert roofing, waterproofing and building envelope solutions across the Western Cape. Free inspections. Same-day quotes. 2-year written guarantee on every job.",
+    "keywords": ["roofing cape town", "waterproofing cape town", "roof repairs cape town", "roof replacement cape town", "empire roofing"],
+    "ogImage": "/images/og-image.jpg",
+    "googleVerification": "",
+    "locality": "Cape Town",
+    "region": "Western Cape",
+    "serviceRadius": "Cape Town & Western Cape"
+  },
+
+  "trust": {
+    "guarantee": "2-year written workmanship guarantee",
+    "established": "Over a decade of experience",
+    "badges": ["Licensed & Insured", "OHS Compliant", "Free Inspections", "2-Year Guarantee"],
+    "stats": [
+      { "value": "10+", "label": "Years Experience" },
+      { "value": "500+", "label": "Projects Completed" },
+      { "value": "2yr", "label": "Written Guarantee" },
+      { "value": "100%", "label": "Referenced" }
+    ],
+    "testimonials": [
+      {
+        "quote": "Empire Roofing fixed a persistent leak that two other contractors couldn't solve. Professional, fast and the guarantee gave us total peace of mind.",
+        "author": "Johan V.",
+        "location": "Bloubergstrand",
+        "rating": 5
+      },
+      {
+        "quote": "We used Empire for our commercial warehouse roof. The team was on-site supervised, finished ahead of schedule and the quality is outstanding.",
+        "author": "Marinda S.",
+        "location": "Milnerton Industrial Park",
+        "rating": 5
+      },
+      {
+        "quote": "The asbestos encapsulation service is brilliant — no shutdown, no expensive removal, and we have a 10-year guarantee. Highly recommend.",
+        "author": "Deon K.",
+        "location": "Parow",
+        "rating": 5
+      }
+    ]
+  },
+
+  "content": {
+    "hero": {
+      "headline": "Cape Town's #1 Roofing & Waterproofing Specialists",
+      "subheadline": "Over a decade of expert roofing, waterproofing, and building envelope solutions. Backed by written guarantees on every job.",
+      "ctaPrimary": { "label": "Call 022 125 0260", "href": "tel:+27221250260" },
+      "ctaSecondary": { "label": "Get a Free Quote", "href": "#contact" },
+      "images": ["/images/hero-1.jpg", "/images/hero-2.jpg", "/images/hero-3.jpg"]
+    },
+    "about": {
+      "headline": "Built for Cape Town's Toughest Weather",
+      "body": "Empire Roofing has been protecting homes and businesses across the Western Cape for over a decade. From coastal winds in Bloubergstrand to heavy rains in the Boland, we build and repair roofs engineered to handle it all — backed by written workmanship guarantees on every job.",
+      "image": "/images/about.jpg",
+      "points": [
+        "2-year written workmanship guarantee on all repairs",
+        "OHS-compliant teams with full public liability cover",
+        "Free inspections & same-day written quotes",
+        "Certified asbestos encapsulation specialists",
+        "Serving Cape Town, West Coast & Boland regions",
+        "Team members employed by Empire for over a decade"
+      ]
+    },
+    "process": [
+      { "step": 1, "title": "Free Inspection", "body": "We visit your property at no cost, assess all roofing areas thoroughly and identify every issue — visible or hidden." },
+      { "step": 2, "title": "Written Quote", "body": "You receive a clear, written quote with full scope of work, recommended systems, inclusions, exclusions and timeline." },
+      { "step": 3, "title": "Expert Work", "body": "Our experienced, on-site supervised teams carry out the work using premium materials matched to your roof type and exposure." },
+      { "step": 4, "title": "Guaranteed", "body": "Final quality inspection, snag resolution and a written workmanship guarantee. Photo logs available on request." }
+    ],
+    "faq": [
+      { "q": "Do you provide a guarantee on your work?", "a": "Yes. Empire Roofing provides a 2-year written workmanship guarantee on all completed repairs. Asbestos encapsulation carries a 10-year guarantee." },
+      { "q": "Do you offer free inspections?", "a": "Yes — all inspections are free of charge and same-day written quotes are available. Contact us via phone, email or WhatsApp." },
+      { "q": "Can you handle both residential and commercial projects?", "a": "Absolutely. Empire Roofing serves residential homeowners, sectional title complexes, commercial properties, industrial warehouses, schools and more." },
+      { "q": "Is asbestos removal necessary?", "a": "Not always. Our certified asbestos encapsulation service binds unstable fibres, prevents airborne spread and requires no shutdown — with a 10-year guarantee." },
+      { "q": "Which areas do you serve?", "a": "We operate across Greater Cape Town, up the West Coast to Langebaan and into the Boland. One call connects you to a local team." }
+    ]
+  },
+
+  "services": [
+    {
+      "id": "waterproofing",
+      "title": "Waterproofing",
+      "shortDesc": "Concrete decks, parapet walls, box gutters & chimneys.",
+      "metaTitle": "Waterproofing Cape Town — Roof, Deck & Wall Specialists",
+      "metaDesc": "Professional waterproofing services in Cape Town. Flat roofs, balconies, walls & basements. Free inspection. 2-year guarantee.",
+      "heroImage": "/images/waterproofing-1.jpg",
+      "galleryImages": ["/images/waterproofing-2.jpg", "/images/waterproofing-3.jpg"],
+      "guarantee": "2-year written workmanship guarantee",
+      "points": [
+        "4mm heat fuse malthoid waterproofing for concrete decks",
+        "Torch-on, acrylic & polyurethane membrane systems",
+        "Parapet wall, box gutter & chimney waterproofing",
+        "Exterior wall, side & headwall flashing waterproofing",
+        "Storm damage leak resolution",
+        "Side cladding & ridge capping installation"
+      ],
+      "faq": [
+        { "q": "What types of waterproofing do you offer in Cape Town?", "a": "We offer torch-on malthoid, acrylic coating, polyurethane membrane, and spray-applied systems for flat roofs, decks, walls and below-ground structures." },
+        { "q": "How long does waterproofing last?", "a": "Our systems carry a 2-year workmanship guarantee. The underlying materials are rated 10–15 years depending on the system applied." }
+      ]
+    },
+    {
+      "id": "roof-installations",
+      "title": "Roof Installations",
+      "shortDesc": "New IBR, corrugated & tile roof installations.",
+      "metaTitle": "Roof Installations Cape Town — Residential & Commercial",
+      "metaDesc": "New roof installations in Cape Town. IBR, Chromadek, tile and flat roof systems. Free quote. 2-year guarantee.",
+      "heroImage": "/images/roof-installations-1.jpg",
+      "galleryImages": ["/images/roof-installations-2.jpg", "/images/roof-installations-3.jpg"],
+      "guarantee": "2-year written workmanship guarantee",
+      "points": [
+        "New IBR, corrugated & Chromadek roof sheet installation",
+        "Sisalation (reflective insulation) installation",
+        "Roof tile replacement — concrete, clay & slate",
+        "Ridge capping & flashing installation",
+        "Fascia board & eave installation",
+        "All roof types: tiled, metal, flat & pitched"
+      ],
+      "faq": [
+        { "q": "What roof types do you install in Cape Town?", "a": "We install IBR, corrugated, Chromadek, concrete tile, clay tile, slate and flat roof membrane systems for residential and commercial properties." },
+        { "q": "How long does a new roof installation take?", "a": "Most residential installations take 2–5 days depending on size and system. Commercial projects are scoped individually." }
+      ]
+    },
+    {
+      "id": "roof-refurbishments",
+      "title": "Roof Refurbishments",
+      "shortDesc": "Full roof refurbishment & restoration.",
+      "metaTitle": "Roof Refurbishments Cape Town — Restore & Protect Your Roof",
+      "metaDesc": "Full roof refurbishments in Cape Town. Replace worn sheets, treat rust, upgrade insulation. Free inspection. 2-year guarantee.",
+      "heroImage": "/images/roof-refurbishments-1.jpg",
+      "galleryImages": ["/images/roof-refurbishments-2.jpg", "/images/roof-refurbishments-3.jpg"],
+      "guarantee": "2-year written workmanship guarantee",
+      "points": [
+        "Complete roof sheet replacement & upgrade",
+        "Rust treatment & anti-corrosion coating",
+        "Fastener & cap replacement",
+        "Fascia board & eave refurbishment",
+        "Ceiling repair, skimming & painting",
+        "Ridge re-bedding & pointing"
+      ],
+      "faq": [
+        { "q": "When should I refurbish rather than replace my roof?", "a": "If the structure is sound but sheets, fasteners and flashings are worn, a refurbishment extends life significantly at a fraction of replacement cost." },
+        { "q": "Do you treat rust on metal roofs?", "a": "Yes. We apply rust converters and anti-corrosion primers before any coating or sheet replacement to prevent recurrence." }
+      ]
+    },
+    {
+      "id": "commercial-industrial-roofing",
+      "title": "Commercial & Industrial Roofing",
+      "shortDesc": "Large-scale roofing for factories, warehouses & commercial properties.",
+      "metaTitle": "Commercial & Industrial Roofing Cape Town",
+      "metaDesc": "Expert commercial and industrial roofing in Cape Town. Minimal downtime. OHS compliant. Free quote. 2-year guarantee.",
+      "heroImage": "/images/commercial-1.jpg",
+      "galleryImages": ["/images/commercial-2.jpg", "/images/commercial-3.jpg"],
+      "guarantee": "2-year written workmanship guarantee",
+      "points": [
+        "Large-span IBR & box profile sheet installation",
+        "Industrial waterproofing & membrane systems",
+        "Factory & warehouse roof replacement",
+        "Minimal operational downtime planning",
+        "OHS-compliant on-site teams",
+        "Schools, malls, petrol stations & business parks"
+      ],
+      "faq": [
+        { "q": "Can you work on occupied commercial buildings?", "a": "Yes. We plan all commercial projects to minimise operational disruption and comply with full OHS requirements." },
+        { "q": "Do you handle large industrial roof spans?", "a": "Yes. We specialise in large-span IBR and box profile systems for factories, warehouses and industrial parks." }
+      ]
+    },
+    {
+      "id": "aluminium-guttering",
+      "title": "Aluminium Guttering",
+      "shortDesc": "Rust-free aluminium gutters with 10-year corrosion guarantee.",
+      "metaTitle": "Aluminium Guttering Cape Town — Rust-Free, 10-Year Guaranteed",
+      "metaDesc": "Aluminium gutter installation in Cape Town. Rust-resistant, no sagging. 10-year corrosion guarantee. Free quote.",
+      "heroImage": "/images/guttering-1.jpg",
+      "galleryImages": ["/images/guttering-2.jpg", "/images/guttering-3.jpg"],
+      "guarantee": "10-year corrosion guarantee on aluminium products",
+      "points": [
+        "Aluminium & PVC guttering supply & installation",
+        "Rust-resistant — no corrosion, no sagging",
+        "Downpipe installation & replacement",
+        "Gutter cleaning & unblocking",
+        "Flashing repairs around gutters & parapets",
+        "10-year guarantee against corrosion"
+      ],
+      "faq": [
+        { "q": "Why choose aluminium gutters over PVC?", "a": "Aluminium gutters are more durable, don't sag under Cape Town's heat, and carry a 10-year corrosion guarantee. They're the industry-leading choice for longevity." },
+        { "q": "Do you clean and unblock existing gutters?", "a": "Yes. We offer gutter cleaning, unblocking and repair as a standalone service or as part of a roof maintenance programme." }
+      ]
+    },
+    {
+      "id": "construction-and-painting",
+      "title": "Construction & Painting",
+      "shortDesc": "Full building maintenance, painting & construction services.",
+      "metaTitle": "Construction & Painting Cape Town — Building Maintenance Specialists",
+      "metaDesc": "Construction and painting services in Cape Town. Residential, commercial and industrial. Competitive pricing. Free quote.",
+      "heroImage": "/images/painting-1.jpg",
+      "galleryImages": ["/images/painting-2.jpg", "/images/painting-3.jpg"],
+      "guarantee": "2-year written workmanship guarantee",
+      "points": [
+        "Building & bricklaying, plaster & skimming",
+        "Interior & exterior painting — all surfaces",
+        "Ceiling installation, repair & painting",
+        "Tile work — floors, baths, showers",
+        "Paving, edging & parking lot maintenance",
+        "General handyman & building maintenance"
+      ],
+      "faq": [
+        { "q": "Do you do both interior and exterior painting?", "a": "Yes. We handle all interior and exterior painting for residential homes, complexes, commercial properties and industrial buildings." },
+        { "q": "Can you handle full building maintenance contracts?", "a": "Yes. We manage maintenance contracts for body corporates, estates, schools, business parks and retail centres." }
+      ]
+    },
+    {
+      "id": "asbestos-roof-refurbishments-painting",
+      "title": "Asbestos Roof Refurbishments",
+      "shortDesc": "Safe, certified asbestos encapsulation. 10-year guarantee.",
+      "metaTitle": "Asbestos Roof Refurbishments Cape Town — Safe & Certified",
+      "metaDesc": "Certified asbestos encapsulation in Cape Town. No removal required. 10-year guarantee. Safe, cost-effective solution.",
+      "heroImage": "/images/asbestos-1.jpg",
+      "galleryImages": ["/images/asbestos-2.jpg", "/images/asbestos-3.jpg"],
+      "guarantee": "10-year guarantee on encapsulation",
+      "points": [
+        "Binds & seals unstable asbestos fibres permanently",
+        "Prevents airborne fibre spread — no health risk",
+        "No downtime or expensive shutdown required",
+        "No high-pressure cleaning required",
+        "Fraction of the cost vs full asbestos removal",
+        "Certified asbestos encapsulation specialists"
+      ],
+      "faq": [
+        { "q": "Is asbestos removal always necessary?", "a": "No. If the asbestos sheeting is intact and not friable, our encapsulation system seals fibres permanently at a fraction of removal cost, with a 10-year guarantee." },
+        { "q": "Is encapsulation safe?", "a": "Yes. Our certified encapsulation process eliminates the risk of airborne fibre exposure without the disruption and cost of full removal." }
+      ]
+    },
+    {
+      "id": "pergola-installations",
+      "title": "Pergola Installations",
+      "shortDesc": "Custom decking & pergola structures.",
+      "metaTitle": "Pergola Installations Cape Town — Custom Decking & Shade Structures",
+      "metaDesc": "Custom pergola and deck installations in Cape Town. Residential and commercial. Written guarantee. Free quote.",
+      "heroImage": "/images/pergola-1.jpg",
+      "galleryImages": ["/images/pergola-2.jpg", "/images/pergola-3.jpg"],
+      "guarantee": "2-year written workmanship guarantee",
+      "points": [
+        "Custom pergola frame design & construction",
+        "Timber & composite decking installation",
+        "Shade sail & louvre roof integration",
+        "Garden entertainment area structures",
+        "Commercial outdoor shade structures",
+        "Maintenance & refurbishment of existing pergolas"
+      ],
+      "faq": [
+        { "q": "Do you build custom pergolas?", "a": "Yes. We design and build custom pergola structures to your specifications for residential gardens, entertainment areas and commercial outdoor spaces." },
+        { "q": "What decking materials do you use?", "a": "We work with both timber and composite decking depending on your preference, budget and exposure to Cape Town's coastal climate." }
+      ]
+    },
+    {
+      "id": "thatch-roof-tiles",
+      "title": "Thatch Roof Tiles",
+      "shortDesc": "Authentic thatch roof tiles for a natural aesthetic.",
+      "metaTitle": "Thatch Roof Tiles Cape Town — Natural Aesthetic, Modern Protection",
+      "metaDesc": "Thatch roof tile installations in Cape Town. Authentic look with engineered durability. Free quote. Written guarantee.",
+      "heroImage": "/images/thatch-1.jpg",
+      "galleryImages": ["/images/thatch-2.jpg", "/images/thatch-3.jpg"],
+      "guarantee": "2-year written workmanship guarantee",
+      "points": [
+        "Authentic thatch roof tile installation",
+        "Residential & commercial applications",
+        "Natural aesthetic with engineered performance",
+        "Cape vernacular & modern architectural styles",
+        "Repair & re-thatching of existing roofs",
+        "Waterproofing integration with thatch systems"
+      ],
+      "faq": [
+        { "q": "Are thatch roof tiles durable?", "a": "Yes. Modern thatch roof tiles combine the authentic aesthetic of thatch with engineered durability and waterproofing performance." },
+        { "q": "Can you repair existing thatch roofs?", "a": "Yes. We repair, re-thatch and upgrade existing thatch roofs as well as install new thatch tile systems." }
+      ]
+    },
+    {
+      "id": "empire-roofing-west-coast",
+      "title": "Empire Roofing West Coast",
+      "shortDesc": "Serving Langebaan & surrounds. Call: 022 125 0260.",
+      "metaTitle": "Empire Roofing West Coast — Langebaan & Surrounds",
+      "metaDesc": "Roofing and waterproofing on the West Coast. Langebaan, Saldanha, Vredenburg and surrounds. Free quote. 2-year guarantee.",
+      "heroImage": "/images/west-coast-1.jpg",
+      "galleryImages": ["/images/west-coast-2.jpg", "/images/west-coast-3.jpg"],
+      "guarantee": "Same guarantees as Cape Town — written, backed & honoured",
+      "points": [
+        "All roofing services available on the West Coast",
+        "Waterproofing for coastal properties",
+        "Asbestos encapsulation in Langebaan & surrounds",
+        "Aluminium guttering installation & repair",
+        "Construction & painting services",
+        "Local team — fast response times"
+      ],
+      "faq": [
+        { "q": "Do you serve the West Coast from Cape Town?", "a": "Yes. Our West Coast division covers Langebaan, Saldanha Bay, Vredenburg, Paternoster and surrounding coastal communities." },
+        { "q": "Are your West Coast guarantees the same as Cape Town?", "a": "Yes. The same written workmanship guarantees apply across all our service areas including the West Coast." }
+      ]
+    }
+  ],
+
+  "locations": [
+    { "suburb": "Bloubergstrand", "slug": "bloubergstrand" },
+    { "suburb": "Table View", "slug": "table-view" },
+    { "suburb": "Milnerton", "slug": "milnerton" },
+    { "suburb": "Durbanville", "slug": "durbanville" },
+    { "suburb": "Bellville", "slug": "bellville" },
+    { "suburb": "Parow", "slug": "parow" },
+    { "suburb": "Brackenfell", "slug": "brackenfell" },
+    { "suburb": "Goodwood", "slug": "goodwood" },
+    { "suburb": "Claremont", "slug": "claremont" },
+    { "suburb": "Constantia", "slug": "constantia" },
+    { "suburb": "Hout Bay", "slug": "hout-bay" },
+    { "suburb": "Green Point", "slug": "green-point" },
+    { "suburb": "Langebaan", "slug": "langebaan" },
+    { "suburb": "Stellenbosch", "slug": "stellenbosch" },
+    { "suburb": "Paarl", "slug": "paarl" }
+  ],
+
+  "navigation": {
+    "taxonomy": [
+      {
+        "category": "Roofing",
+        "services": ["roof-installations", "roof-refurbishments", "commercial-industrial-roofing", "thatch-roof-tiles"]
+      },
+      {
+        "category": "Waterproofing",
+        "services": ["waterproofing", "asbestos-roof-refurbishments-painting"]
+      },
+      {
+        "category": "Building & Maintenance",
+        "services": ["aluminium-guttering", "construction-and-painting", "pergola-installations"]
+      },
+      {
+        "category": "West Coast",
+        "services": ["empire-roofing-west-coast"]
+      }
+    ],
+    "footerLinks": ["about", "contact"],
+    "serviceAreas": ["Bloubergstrand", "Table View", "Milnerton", "Durbanville", "Bellville", "Parow", "Brackenfell", "Claremont", "Constantia", "Hout Bay", "Green Point", "City Bowl", "Woodstock", "Kuils River", "Atlantis", "Langebaan", "Paarl", "Stellenbosch"]
+  }
+}

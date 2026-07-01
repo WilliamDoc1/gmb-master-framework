@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-primary: #1a1a1a;
+  --color-secondary: #ffffff;
+  --color-accent: #F5C518;
+}
+
+@layer base {
+  body {
+    @apply font-sans antialiased;
+  }
+}
+
+@layer utilities {
+  .bg-brand-primary { background-color: var(--color-primary); }
+  .bg-brand-accent { background-color: var(--color-accent); }
+  .text-brand-primary { color: var(--color-primary); }
+  .text-brand-accent { color: var(--color-accent); }
+  .border-brand-accent { border-color: var(--color-accent); }
+  .shadow-brand-accent { --tw-shadow-color: var(--color-accent); }
+}
