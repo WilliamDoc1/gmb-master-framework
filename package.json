@@ -5,13 +5,16 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "tsx scripts/gmb-sync.ts && tsc -b && vite build",
     "lint": "oxlint",
     "preview": "vite preview",
-    "ingest": "npx tsx scripts/ingest-client.ts",
-    "sync-reviews": "npx tsx scripts/gmb-sync.ts"
+    "ingest": "tsx scripts/ingest-client.ts",
+    "sync-reviews": "tsx scripts/gmb-sync.ts"
   },
   "dependencies": {
+    "@anthropic-ai/sdk": "^0.32.0",
+    "cheerio": "^1.0.0",
+    "dotenv": "^16.4.5",
     "clsx": "^2.1.1",
     "framer-motion": "^12.41.0",
     "lucide-react": "^1.21.0",
@@ -21,6 +24,7 @@
     "tailwind-merge": "^3.6.0"
   },
   "devDependencies": {
+    "tsx": "^4.19.0",
     "@types/node": "^24.13.2",
     "@types/react": "^19.2.17",
     "@types/react-dom": "^19.2.3",
